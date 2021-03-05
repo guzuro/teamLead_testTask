@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>LeadTeam test task</title>
+  </head>
+  <body>
+    <!-- Promo section -->
+    <section class="promo">
+      <div class="promo__inner">
+        <div class="promo__video-wrapper">
+          <video
+            playsinline
+            muted
+            autoplay
+            preload="none"
+            poster="./img/promo_poster.jpg"
+          >
+            <source src="./video/promo_bg.mp4" type="video/mp4" />
+          </video>
+          <!-- <span class="overlay"></span> -->
+          <div class="promo__content">
+            <h1 class="promo__title title">
+              LevelUp. <br />
+              <span> Продукт для повышения потенции</span>
+            </h1>
+            <div class="container">
+              <div class="promo__product">
+                <img
+                loading="lazy"
+
+                  class="promo__image"
+                  src="./img/prod.png"
+                  alt="емкость с таблетками"
+                />
+
+                <div class="column">
+                  <ul class="promo__features list">
+                    <li class="list__item">Lorem ipsum dolor sit amet</li>
+                    <li class="list__item">Facilis repudiandae quisquam</li>
+                    <li class="list__item">Maxime necessitatibus .</li>
+                  </ul>
+                  <div class="promo__button">
+                    <a href="#order-section">
+                      <button class="btn">Заказать</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="consist">
+      <div class="container">
+        <div class="constists__inner">
+          <div class="consists__left consistents">
+            <div class="consistents__item">
+              <img
+                loading="lazy"
+                src="./img/prod.png"
+                alt="Первый ингредиент"
+              />
+              <p class="consistent__text">Impedit sed vero in asperiores.</p>
+            </div>
+            <div class="consistents__item">
+              <img
+                loading="lazy"
+                src="./img/prod.png"
+                alt="Второй ингредиент"
+              />
+              <p class="consistent__text">asperiores eum.</p>
+            </div>
+            <div class="consistents__item">
+              <img
+                loading="lazy"
+                src="./img/prod.png"
+                alt="Третий ингредиент"
+              />
+              <p class="consistent__text">Impedit sed asperiores eum.</p>
+            </div>
+          </div>
+          <div class="consists__center">
+            <img
+              loading="lazy"
+              src="./img/prod.png"
+              alt="емкость с таблетками"
+            />
+            <div class="consist__button">
+              <a href="#order-section">
+                <button class="btn">Заказать</button>
+              </a>
+            </div>
+          </div>
+          <div class="consists__right consistents">
+            <div class="consistents__item">
+              <img
+                loading="lazy"
+                src="./img/prod.png"
+                alt="Четвертый ингредиент"
+              />
+              <p class="consistent__text">
+                Impedit sed vero in asperiores eum.
+              </p>
+            </div>
+            <div class="consistents__item">
+              <img loading="lazy" src="./img/prod.png" alt="Пятый ингредиент" />
+              <p class="consistent__text">Impedit in asperiores eum.</p>
+            </div>
+            <div class="consistents__item">
+              <img
+                loading="lazy"
+                src="./img/prod.png"
+                alt="Шестой ингредиент"
+              />
+              <p class="consistent__text">vero in asperiores eum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonials__inner">
+          <div
+            id="carousel"
+            class="testimonials__carousel carousel slide d-inline-block"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  loading="lazy"
+                  class="testimonials__image img-fluid"
+                  src="./img/face1.jpg"
+                  alt="Лицо мужчины"
+                />
+                <p class="testimonials__name">Lorem</p>
+                <p class="testimonials__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Nostrum provident aspernatur minus sequi quam odio labore.
+                  Numquam dolorem dolore amet corrupti laboriosam dignissimos
+                  adipisci nihil.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <img
+                  loading="lazy"
+                  class="testimonials__image img-fluid"
+                  src="./img/face2.jpg"
+                  alt="Лицо мужчины"
+                />
+                <p class="testimonials__name">Impsum</p>
+                <p class="testimonials__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Nostrum provident aspernatur minus sequi quam odio labore.
+                  Numquam dolorem dolore amet corrupti laboriosam dignissimos
+                  adipisci nihil.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <img
+                  loading="lazy"
+                  class="testimonials__image img-fluid"
+                  src="./img/face3.jpg"
+                  alt="Лицо мальчика"
+                />
+                <p class="testimonials__name">Dolor</p>
+                <p class="testimonials__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Nostrum provident aspernatur minus sequi quam odio labore.
+                  Numquam dolorem dolore amet corrupti laboriosam dignissimos
+                  adipisci nihil.
+                </p>
+              </div>
+            </div>
+            <!-- Элементы управления -->
+            <a
+              class="carousel-control-prev"
+              href="#carousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Предыдущий</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Следующий</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__content">
+            <img
+              loading="lazy"
+              class="about__image"
+              src="./img/doctor1.png"
+              alt="человек с продуктом"
+            />
+            <p class="about__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              delectus ratione nisi molestiae quae? Molestiae laboriosam unde
+              similique labore sed repellat numquam dolorem eveniet et ab eum
+              recusandae explicabo, quisquam veniam voluptas nostrum quaerat
+              sunt, quasi praesentium quia optio placeat mollitia. Neque a illo
+              corrupti eveniet, officia ut consequuntur reiciendis.
+            </p>
+          </div>
+
+          <ul class="about__list list">
+            <li class="list__item">Lorem ipsum dolor sit amet</li>
+            <li class="list__item">Facilis repudiandae quisquam</li>
+            <li class="list__item">Maxime necessitatibus .</li>
+          </ul>
+          <div class="about__button">
+            <a href="#order-section">
+              <button class="btn">Заказать</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order-section">
+      <div class="container">
+        <div class="order__inner">
+          <h2 class="order__title title">
+            LevelUp. <br />
+            <span> Продукт для повышения потенции</span>
+          </h2>
+
+          <div class="order__body">
+            <div class="order__left">
+              <img
+                loading="lazy"
+                class="product-image order__image"
+                src="./img/prod.png"
+                alt=""
+              />
+              <p class="order_price-new">Новая цена - 100</p>
+              <p class="order_price-old">Старая цена - 2500</p>
+            </div>
+            <div class="order__right">
+              <div class="order__timer">
+                <p class="order__limit">До окончания Скидки:</p>
+
+                <script src="//megatimer.ru/get/8ec14f8d97a9e7793cfe99fb475b5785.js"></script>              </div>
+              <form class="order__form" onsubmit="return false;" method="post">
+                <label for="name">Ваше имя</label>
+                <small id="name-hint">Пример: Антон</small>
+                <input
+                  class="order__input input"
+                  type="text"
+                  name="userName"
+                  id="name"
+                  placeholder="введите ваше имя..."
+                />
+
+                <label for="phone">Номер телефона</label>
+                <small id="number-hint">Пример: +79991234468</small>
+                <input
+                  class="order__input input"
+                  type="number"
+                  name="userPhone"
+                  id="phone"
+                  placeholder="введите номер телефона..."
+                />
+                <button class="btn order__button" type="submit">
+                  Заказать
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
